@@ -1,0 +1,55 @@
+main {
+  background-color:#f8f9ff;
+  display: inline-block;
+  width: 100%;
+}
+
+header {
+  display: inline-block; 
+  width: 100%; 
+  vertical-align: middle;
+}
+
+.cab {
+  display: inline-block; 
+  margin-left: 90px; 
+  vertical-align: middle; 
+}
+
+.logo-moon {
+  margin-left: 150px;
+  vertical-align: middle; 
+  margin-top: 5px; 
+  margin-bottom: 5px;
+}
+
+.contact-about-blog {
+  margin-left: 14px;
+}
+
+.head-search {
+  margin-left: 14px;
+}
+
+.loginSingUp {
+  display: inline-block;
+   margin-left: 640px; 
+   vertical-align: middle;
+}
+
+.SingUp {
+  margin-left: 14px;
+}
+
+.artical {
+  width: 55%;
+   margin-left: 360px;
+}
+
+h1, p {
+  text-align:center;
+}
+
+.button-Home {
+  margin-left: 50%;
+}

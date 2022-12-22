@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="myStyle.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 <body>
-  <main class="Main">
+  <main>
   <!-- header -->
-    <header >
-      <img src="./logo-moon.png" alt="logo" style=" margin-left: 150px; vertical-align: middle; margin-top: 5px; margin-bottom: 5px;">
-      <div style=" display: inline-block; margin-left: 90px; vertical-align: middle; ">
-        <input type="button" value="Contact"  >
-        <input type="button" value="About Us" style="margin-left: 14px;" >
-        <input type="button" value="Blog" style="margin-left: 14px;">
-        <input type="search" name="Search" id="head-search" style="margin-left: 14px;" >
+    <header>
+      <img src="./logo-moon.png" alt="logo" class="logo-moon">
+      <div class="cab">
+        <input type="button" value="Contact" class="contact-about-blog">
+        <input type="button" value="About Us" class="contact-about-blog" >
+        <input type="button" value="Blog" class="contact-about-blog">
+        <input type="search" name="Search" class="head-search" >
       </div>
-      <div id="login-singup">
+      <div class="loginSingUp ">
         <input type="button" value="Login" >
-        <input type="button" value="Sign Up" style="margin-left: 14px;">
+        <input type="button" value="Sign Up" class="SingUp">
       </div>
     </header>
   <!-- article -->
-    <div style=" width: 55%; margin-left: 360px;">
-      <h1 style=" text-align: center;" >
-        Looks like you get lost
-      </h1>
-      <p style=" text-align:center;">
-        Please navigate your space ship comeback to base</p>
-      <input type="button" value="Home" style="margin-left: 50%;">
+    <div class="artical">
+      <h1>Looks like you get lost</h1>
+      <p>Please navigate your space ship comeback to base</p>
+      <input type="button" value="Home" class="button-Home">
       <img src="./moon.png" alt="404-moon">
     </div>
   </main>
