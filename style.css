@@ -1,0 +1,14 @@
+
+
+.Main {
+  background-color:#233490; 
+  display: inline-block; 
+  width: 100%;
+}
+
+#login-singup {
+  display: inline-block;
+   margin-left: 640px; 
+   vertical-align: middle;
+}
+/* display: inline-block; width: 100%; vertical-align: middle; */
