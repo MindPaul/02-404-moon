@@ -4,32 +4,34 @@ body {
 }
 
 header, main {
-  width: 1300px;
-  margin-left: calc(50% - 650px);
+  width: 1200px;
+  margin-left: calc(50% - 600px);
 }
 
 header {
+  margin-top: 30px;
   display: inline-block;
 }
 
 img {
   object-position: left;
   object-fit: contain;
-  height: 100px;
-  width: 200px;
+  height: 50px;
+  width: 100px;
   float: left;
 }
 
 nav {
-  margin-top: 50px;
+  font-weight: 600;
+  margin-top: 25px;
   float: right;
 }
 
 a{
   color: #170964;
-  margin-left: 3em;
-  line-height: 30px;
-  font-size: 22px;
+  margin-left: 90px;
+  line-height: 27px;
+  font-size: 16px;
   text-decoration: none;
 }
 a:first-child{
@@ -39,21 +41,22 @@ a:first-child{
 #search-header {
   background-color: #ecf1f4;
   padding: 0 15px;
-  width: 220px;
-  font-size: 22px;
+  width: 180px;
+  font-size: 16px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border: none;
   border-radius: 50px;
-  margin-left: 44px;
-  height: 34px;
+  margin-left: 90px;
+  height: 27px;
   vertical-align: bottom;
 }
 ::placeholder {
+  font-weight: 600;
   color: #170964;
 }
 
 a:nth-child(5) {
-  margin-left: 150px;
+  margin-left: 170px;
 }
 
 a:last-child {
