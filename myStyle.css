@@ -1,1 +1,71 @@
-dasdasd
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, main {
+  width: 1300px;
+  margin-left: calc(50% - 650px);
+}
+
+header {
+  display: inline-block;
+}
+
+img {
+  object-position: left;
+  object-fit: contain;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+
+nav {
+  margin-top: 50px;
+  float: right;
+}
+
+a{
+  color: #170964;
+  margin-left: 3em;
+  line-height: 30px;
+  font-size: 22px;
+  text-decoration: none;
+}
+a:first-child{
+  margin-left: 0;
+}
+
+#search-header {
+  background-color: #ecf1f4;
+  padding: 0 15px;
+  width: 220px;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  border-radius: 50px;
+  margin-left: 44px;
+  height: 34px;
+  vertical-align: bottom;
+}
+::placeholder {
+  color: #170964;
+}
+
+a:nth-child(5) {
+  margin-left: 150px;
+}
+
+a:last-child {
+  margin-left: 20px;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #00f3fa;
+}
+
+main {
+  background-color: aquamarine;
+}
